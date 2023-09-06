@@ -1,6 +1,7 @@
 # Wordle - Clon
 ## Introducción
-Wordle ([enlace a la página del juego](https://www.nytimes.com/games/wordle/index.html)) es un juego de adivinanza de navegador, en el cual el jugador debe adivinar la palabra secreta realizando suposiciones. Fue desarrollado por Josh Wardle en 2021.
+Este programa recrea el juego de navegador Wordle en Java.
+Wordle ([enlace a la página del juego](https://www.nytimes.com/games/wordle/index.html)) es un juego de adivinanza, en el cual el jugador debe adivinar la palabra secreta realizando suposiciones. Fue desarrollado por Josh Wardle en 2021.
 
 ![MostrarImg1](readme-rsc/Wordle1.png)
 
