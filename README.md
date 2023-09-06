@@ -3,7 +3,7 @@
 Este programa recrea el juego de navegador Wordle en Java.
 Wordle ([enlace a la página del juego](https://www.nytimes.com/games/wordle/index.html)) es un juego de adivinanza, en el cual el jugador debe adivinar la palabra secreta realizando suposiciones. Fue desarrollado por Josh Wardle en 2021.
 
-![MostrarImg1](readme-rsc/Wordle1.png)
+![MostrarImg1](readme-src/Wordle1.png)
 
 ## Reglas
 El jugador tiene seis intentos para adivinar la palabra. Al introducir una suposición, las letras de la palabra cambiarán de color de acuerdo con las siguientes reglas:
@@ -13,7 +13,7 @@ El jugador tiene seis intentos para adivinar la palabra. Al introducir una supos
 
 ACLARACIÓN: siguiendo las reglas del juego original, cuando la palabra insertada tenga una letra repetida y esta letra se encuentre en la palabra solo una vez (por ejemplo, armar y vista), se contará una sola de estas letras al cambiar el color a verde/amarillo, ya que solo aparece una vez en la palabra secreta (en el caso del ejemplo, solo cambiaría de color a amarillo la primera 'a' de la palabra "armar", la segunda cambiaría a color negro).
   
-![MostrarImg2](readme-rsc/Wordle2.png)
+![MostrarImg2](readme-src/Wordle2.png)
 
 ## Cómo jugar
 Se utiliza el teclado para introducir las distintas letras para formar la palabra, pudiendo solo insertar letras. 
