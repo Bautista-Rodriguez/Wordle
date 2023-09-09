@@ -53,7 +53,7 @@ public class WordleController {
             }
             else if(model.getFilaActual()==6){
                 model.setGameOver(true);
-                view.mostrarTexto("¡Perdiste! La palabra era: "+model.getPalabraRespuesta());
+                view.mostrarTexto("La palabra era: "+model.getPalabraRespuesta());
                 view.habilitarReiniciar();
             }
             view.actualizarColores();
