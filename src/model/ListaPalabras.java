@@ -8,7 +8,7 @@ import java.util.Random;
 
 public class ListaPalabras {
     Random rand;
-    final File archivoPalabras = new File("src\\model\\Palabras.txt");
+    final File archivoPalabras = new File("src/model/Palabras.txt");
 	BufferedReader buffer;
 
     public String getPalabra(){
