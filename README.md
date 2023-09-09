@@ -45,4 +45,4 @@ La vista utiliza la biblioteca gráfica Swing para generar la interfaz de usuari
 
 ### Controlador
 El controlador está formado por una clase:
-- `WordleController`: Se encarga responder a los eventos del usuario. Envía mensajes a `WordleView` y `WordleModel` para que realicen una serie de acciones según sea necesario. 
+- `WordleController`: Se encarga de responder a los eventos del usuario. Envía mensajes a `WordleView` y `WordleModel` para que realicen una serie de acciones según sea necesario. 
