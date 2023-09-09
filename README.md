@@ -32,7 +32,7 @@ El código se basa en el patrón de arquitectura MVC.
 El apartado de Modelo está formado por dos clases y un archivo de texto:
 - `Palabras.txt`: contiene el diccionario de las palabras utilizadas por el programa (todas las palabras fueron extraídas de la siguiente página web: https://www.diccionariodedudas.com).
 - `ListaPalabras`: se encarga de retornar la palabra secreta para ser asignada, y de verificar que la palabra insertada por el usuario sea válida.
-- `WordleModel`: contiene la información del estado actual del juego, como la palabra secreta, la palabra insertada por el usuario, la fila y columna actual de la cuadrícula, etc. Se encarga de retoranr y actualizar la información del juego, así como realizar la comparación de la palabra secreta con la palabra del usuario.
+- `WordleModel`: contiene la información del estado actual del juego, como la palabra secreta, la palabra insertada por el usuario, la fila y columna actual de la cuadrícula, etc. Se encarga de retornar y actualizar la información del juego, así como realizar la comparación de la palabra secreta con la palabra del usuario.
 ### Vista
 El apartado Vista está formado por siete clases:
 - `Bordes`, `Colores`, y `Fuentes`: Contienen información sobre los distintos elementos de interfaz de usuario. Son utilizadas para actualizar la vista de manera más fácil.
