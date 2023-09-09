@@ -18,7 +18,7 @@ public class WordleView extends JFrame{
         this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		this.setResizable(false);
         this.setTitle("Wordle");
-        this.setIconImage(new ImageIcon("src\\images\\Icono.png").getImage());
+        this.setIconImage(new ImageIcon("src/images/Icono.png").getImage());
         this.panelTitulo = new PanelTitulo();
 		this.panelCuadricula = new PanelCuadricula(model);
         this.panelTeclado = new PanelTeclado();
