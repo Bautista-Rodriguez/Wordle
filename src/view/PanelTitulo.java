@@ -9,8 +9,8 @@ import javax.swing.JPanel;
 
 
 public class PanelTitulo extends JPanel{
-    JLabel etiquetaTitulo = new JLabel(new ImageIcon("src\\images\\Title.png"));
-    JLabel etiquetaMensajes = new JLabel(new ImageIcon("src\\images\\Mensajes.png"));
+    JLabel etiquetaTitulo = new JLabel(new ImageIcon("src/images/Title.png"));
+    JLabel etiquetaMensajes = new JLabel(new ImageIcon("src/images/Mensajes.png"));
 
     public PanelTitulo(){
         this.setBackground(Color.WHITE);
