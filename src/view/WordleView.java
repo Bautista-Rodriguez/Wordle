@@ -1,6 +1,8 @@
 package view;
 
 import java.awt.BorderLayout;
+import java.awt.Dimension;
+import java.awt.Toolkit;
 import java.awt.event.ActionListener;
 import java.awt.event.KeyListener;
 
@@ -15,6 +17,7 @@ public class WordleView extends JFrame{
     private PanelTeclado panelTeclado;
 
 	public WordleView(WordleModel model) {
+        Dimension screenSize = Toolkit. getDefaultToolkit(). getScreenSize();
         this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		this.setResizable(false);
         this.setTitle("Wordle");
@@ -25,7 +28,8 @@ public class WordleView extends JFrame{
         panelCuadricula.asignarPanelTeclado(panelTeclado);
         this.add(panelTitulo,BorderLayout.NORTH);
         this.add(panelCuadricula,BorderLayout.CENTER);
-        this.add(panelTeclado,BorderLayout.SOUTH);
+        if(screenSize.height>900)
+            this.add(panelTeclado,BorderLayout.SOUTH);
         this.pack();
         this.setLocationRelativeTo(null);
         this.actualizar();
